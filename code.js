@@ -2,12 +2,12 @@ let n = 17;
 let ar = [];
 
 function rohitSocksStore(n, ar) {
-  var i, j;
-  var pair = 0;
-  var count = 0;
+  let i, j;
+  let pair = 0;
+  let count = 0;
 
   for (i = 0; i < n; i++) {
-    var arr = prompt("Enter the socks number.");
+    let arr = prompt("Enter the socks number.");
     ar.push(arr);
   }
   alert(ar);
